@@ -1,0 +1,37 @@
+/* style.css */
+/* 전체 문서의 배경색과 글꼴 지정 */
+body {
+  background-color: #f4f4f4;
+  font-family: Arial, sans-serif;
+}
+
+/* 링크의 기본 스타일 지정 */
+a {
+    text-decoration: none;
+    color: #0066cc;
+}
+
+/* 제목의 기본 글자색 지정 */
+h1 {
+    color: #333;
+}
+
+/* "오늘의 할 일" 제목의 글자색 지정 */
+.daily-title {
+    color: #3498db;
+}
+
+li {
+    font-size: 10px;
+    margin-bottom: 5px;
+}
+/* 문단의 글자 크기 지정 */
+.task {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+/* "실습 도전하기" 문구를 굵게 표시 */
+#challenge-task {
+    font-weight: bold;
+}
