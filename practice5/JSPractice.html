@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS실습페이지</title>
+</head>
+<body>
+    <h1>JS 실습</h1>
+    <script>
+        function gugudan(num)
+        {
+            document.write        
+            (num + " x 1 = " + (num * 1) + "<br>" +
+            num+ " x 2 = " + (num * 2) + "<br>" +
+            num+ " x 3 = " + (num * 3) + "<br>" +
+            num+ " x 4 = " + (num * 4) + "<br>" +
+            num+ " x 5 = " + (num * 5) + "<br>" +
+            num+ " x 6 = " + (num * 6) + "<br>" +
+            num+ " x 7 = " + (num * 7) + "<br>" +
+            num+ " x 8 = " + (num * 8) + "<br>" +
+            num+ " x 9 = " + (num * 9) + "<br>");
+        }
+
+        let left = prompt('숫자(2~9)를 입력하세요: ');
+
+        document.write(left + "단 단순출력<br>");
+        document.write("----------<br>");
+        console.log(left * 1);
+        console.log(left * 2);
+        console.log(left * 3);
+        console.log(left * 4);
+        console.log(left * 5);
+        console.log(left * 6);
+        console.log(left * 7);
+        console.log(left * 8);
+        console.log(left * 9);
+
+        document.write        
+            (left + " x 1 = " + (left * 1) + "<br>" +
+            left + " x 2 = " + (left * 2) + "<br>" +
+            left + " x 3 = " + (left * 3) + "<br>" +
+            left + " x 4 = " + (left * 4) + "<br>" +
+            left + " x 5 = " + (left * 5) + "<br>" +
+            left + " x 6 = " + (left * 6) + "<br>" +
+            left + " x 7 = " + (left * 7) + "<br>" +
+            left + " x 8 = " + (left * 8) + "<br>" +
+            left + " x 9 = " + (left * 9) + "<br>");
+
+        document.write("<br>");
+
+        document.write(left + "단 함수출력<br>");
+        document.write("----------<br>");
+        gugudan(left);
+
+    </script>
+</body>
+</html>
